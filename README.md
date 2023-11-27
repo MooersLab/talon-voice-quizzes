@@ -10,9 +10,9 @@ A PDF version of each quiz is provided for those who are unable to run the inter
 
 ## Features
 
-- randomizes questions on each run
-- reports number of correct answers
-- reports time spent on quiz
+- Randomizes questions on each run
+- Reports number of correct answers
+- Reports time spent on quiz
 
 ## Disclaimer
 This is a programming tool, not an educational tool.
