@@ -23,17 +23,17 @@ The `quiz` impoves recall of computer commands in a quote manner.
 ## Prerequisites
 You need a recent version of Python3.
 You also need one external module.
-Install the module **pytictoc** with pip or conda.
+Install the module **pytictoc** with pip.
 
 ```bash
 pip install --user --upgrade pytictoc
 ```
 
-or with conda
+or with a conda environement
 
 ```bash
 conda activate <env name>
-conda install pytictoc
+pip install pytictoc
 ```
 
 If you have an older version of python3, install the module **tictoc** instead.
@@ -52,7 +52,9 @@ Then the interactive quiz will run.
 Enter control-D to interupt the quiz.
 
 ### Run in Jupyter
-Use in Jupyter Notebook, JupyterLab, [JupyterLab.app](https://blog.jupyter.org/jupyterlab-desktop-app-now-available-b8b661b17e9a), or nteract.app.
+Use in Jupyter Notebook, JupyterLab, [JupyterLab.app](https://blog.jupyter.org/jupyterlab-desktop-app-now-available-b8b661b17e9a), or [nteract.app](https://nteract.io/).
+The last two optioins are stand-a-lone desktop applications that do not use the browser.
+You still have to have a Python3 kernel available that is mapped to a Python interpreter with the module `pytictoc` installed via pip.
 Probably works in Colab, too, but you may have to load the quiz onto your Google Drive.
 Select the approprite Python kernel that taps into the Python interpreter with pytictoc installed.
 
