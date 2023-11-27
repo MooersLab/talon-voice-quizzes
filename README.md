@@ -8,6 +8,11 @@ This quiz supports improving the recall.
 
 A PDF version of each quiz is provided for those who are unable to run the interactive version of the quiz.
 
+## Features
+
+- randomizes questions on each run
+- reports number of correct answers
+- reports time spent on quiz
 
 ## Disclaimer
 This is a programming tool, not an educational tool.
