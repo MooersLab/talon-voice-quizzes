@@ -34,7 +34,7 @@ Then the interactive quiz will run.
 ### Run in terminal
 
 ```bash
-./qVoiceTyping
+./qTalon<subtopic>.py
 ```
 
 Enter control-D to interupt the quiz.
@@ -44,7 +44,7 @@ Use in Jupyter Notebook, JupyterLab, the JupyterLab.app, or nteract.app.
 Probably works in Colab too.
 Select the approprite Python kernel that taps into the Python interpreter with pytictoc installed.
 
-The advantages of this approach is that results can be stored in the Notebookand and its more fun.
+The advantages of this approach is that the results can be stored in the Notebook and it is more fun to run the quiz in Jupyter.
 
 Check on present working directory in Jupyter by entering the following in a code cell.
 
@@ -52,7 +52,7 @@ Check on present working directory in Jupyter by entering the following in a cod
 !pwd
 ```
 
-The file qVoiceTyping.py must be in the pwd or you must give the full file path to qVoiceTyping.py.
+The file qVoiceTyping.py must be in your working direcotry or you must give the full file path to qVoiceTyping.py.
 Enter the following in another code cell.
 
 ```bash
