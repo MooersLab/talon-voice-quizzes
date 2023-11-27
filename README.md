@@ -33,6 +33,7 @@ or with a conda environement
 
 ```bash
 conda activate <env name>
+pip install --upgrade pip 
 pip install pytictoc
 ```
 
