@@ -8,6 +8,13 @@ This quiz supports improving the recall.
 
 A PDF version of each quiz is provided for those who are unable to run the interactive version of the quiz.
 
+
+## Disclaimer
+This is a programming tool, not an educational tool.
+It provides no explanations and no context.
+The `quiz` impoves recall of computer commands in a quote manner.
+
+
 ## Prerequisites
 You need a recent version of Python3.
 You also need one external module.
