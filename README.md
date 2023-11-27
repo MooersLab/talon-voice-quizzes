@@ -48,7 +48,7 @@ Enter control-D to interupt the quiz.
 
 ### Run in Jupyter
 Use in Jupyter Notebook, JupyterLab, [JupyterLab.app](https://blog.jupyter.org/jupyterlab-desktop-app-now-available-b8b661b17e9a), or nteract.app.
-Probably works in Colab too.
+Probably works in Colab, too, but you may have to load the quiz onto your Google Drive.
 Select the approprite Python kernel that taps into the Python interpreter with pytictoc installed.
 
 The advantages of this approach is that the results can be stored in the Notebook and it is more fun to run the quiz in Jupyter.
