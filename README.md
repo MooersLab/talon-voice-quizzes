@@ -1,23 +1,26 @@
+![Version](https://img.shields.io/static/v1?label=talon-voice-quizzes&message=0.1&color=brightcolor)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 # talon-voice-quizzes
 
 ## Purpose
 Interactive quizzes to refresh recall of Talon Voice commands.
-Recall of these commands fades in several days after first exposure to them.
+Recall of these commands fades in several days after the first exposure to them.
 The recall decreases more slowly with repeated exposure.
 This quiz supports improving the recall.
 
-A PDF version of each quiz is provided for those who are unable to run the interactive version of the quiz.
+A PDF version of each quiz is provided for those who cannot run the interactive version.
 
 ## Features
 
 - Randomizes questions on each run
-- Reports number of correct answers
+- Reports the number of correct answers
 - Reports time spent on quiz
 
 ## Disclaimer
 This is a programming tool, not an educational tool.
 It provides no explanations and no context.
-The `quiz` impoves recall of computer commands in a quote manner.
+The `quiz` improves recall of computer commands in a quote manner.
 
 
 ## Prerequisites
@@ -29,7 +32,7 @@ Install the module **pytictoc** with pip.
 pip install --user --upgrade pytictoc
 ```
 
-or with a conda environement
+or with a conda environment
 
 ```bash
 conda activate <env name>
@@ -50,24 +53,24 @@ Then the interactive quiz will run.
 ./qTalon<subtopic>.py
 ```
 
-Enter control-D to interupt the quiz.
+Enter control-D to interrupt the quiz.
 
 ### Run in Jupyter
 Use in Jupyter Notebook, JupyterLab, [JupyterLab.app](https://blog.jupyter.org/jupyterlab-desktop-app-now-available-b8b661b17e9a), or [nteract.app](https://nteract.io/).
-The last two optioins are stand-a-lone desktop applications that do not use the browser.
-You still have to have a Python3 kernel available that is mapped to a Python interpreter with the module `pytictoc` installed via pip.
+The last two options are stand-alone desktop applications that do not use the browser.
+You still need a Python3 kernel mapped to a Python interpreter with the module `pytictoc` installed via pip.
 Probably works in Colab, too, but you may have to load the quiz onto your Google Drive.
-Select the approprite Python kernel that taps into the Python interpreter with pytictoc installed.
+Select the appropriate Python kernel that taps into the Python interpreter with pyritic installed.
 
-The advantages of this approach is that the results can be stored in the Notebook and it is more fun to run the quiz in Jupyter.
+The advantages of this approach are that the results can be stored in the Notebook and that running the quiz in Jupyter is more fun.
 
-Check on present working directory in Jupyter by entering the following in a code cell.
+Check on the present working directory in Jupyter by entering the following in a code cell.
 
 ```bash
 !pwd
 ```
 
-The file qVoiceTyping.py must be in your working direcotry or you must give the full file path to qVoiceTyping.py.
+The file qVoiceTyping.py must be in your working directory, or you must give the full file path to qVoiceTyping.py.
 Enter the following in another code cell.
 
 ```bash
