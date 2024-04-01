@@ -59,10 +59,10 @@ Enter control-D to interrupt the quiz.
 Use in Jupyter Notebook, JupyterLab, [JupyterLab.app](https://blog.jupyter.org/jupyterlab-desktop-app-now-available-b8b661b17e9a), or [nteract.app](https://nteract.io/).
 The last two options are stand-alone desktop applications that do not use the browser.
 You still need a Python3 kernel mapped to a Python interpreter with the module `pytictoc` installed via pip.
-Probably works in Colab, too, but you may have to load the quiz onto your Google Drive.
-Select the appropriate Python kernel that taps into the Python interpreter with pyritic installed.
+It works in Colab, too, but you may have to load the quiz onto your Google Drive.
+Select the appropriate Python kernel that taps into the Python interpreter with `pytictoc` installed.
 
-The advantages of this approach are that the results can be stored in the Notebook and that running the quiz in Jupyter is more fun.
+This approach has advantages, such as the results can be stored in the Notebook and that running the quiz in Jupyter is more fun.
 
 Check on the present working directory in Jupyter by entering the following in a code cell.
 
@@ -76,3 +76,11 @@ Enter the following in another code cell.
 ```bash
 %run -i "qVoiceTyping.py"
 ```
+
+## Sources of funding
+
+- NIH: R01 CA242845
+- NIH: R01 AI088011
+- NIH: P30 CA225520 (PI: R. Mannel)
+- NIH: P20 GM103640 and P30 GM145423 (PI: A. West)
+
